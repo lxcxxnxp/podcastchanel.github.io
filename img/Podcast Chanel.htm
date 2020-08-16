@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="./Podcast Chanel_files/49f19f5079.js" crossorigin="anonymous"></script>
+    
+    <title>Podcast Chanel</title>
+<link href="./Podcast Chanel_files/css2" rel="stylesheet"><link href="./Podcast Chanel_files/free-v4-shims.min.css" media="all" rel="stylesheet"><link href="./Podcast Chanel_files/free-v4-font-face.min.css" media="all" rel="stylesheet"><link href="./Podcast Chanel_files/free.min.css" media="all" rel="stylesheet"><link rel="stylesheet" href="./Podcast Chanel_files/style.css"></head>
+
+<body>
+    <header>
+        <img class="logo" src="./Podcast Chanel_files/logo.svg" alt="logo">
+        <nav>
+            <input type="checkbox" id="menu-button">
+            <label for="menu-button">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </label>
+
+            <ul>
+                <li> <a href="http://127.0.0.1:5500/index.html#">EPISODIOS</a></li>
+                <li> <a href="http://127.0.0.1:5500/index.html#">NOSOTROS</a></li>
+                <li> <a href="http://127.0.0.1:5500/index.html#">ENTREVISTAS</a></li>
+                <li> <a href="http://127.0.0.1:5500/index.html#">TOPICOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="title">
+        <h1 id="hello"> Hello</h1>
+        <h1 id="world">world</h1>
+        <h1 id="pale">pale</h1>
+        <h1 id="blue">blue dot</h1>
+        <h1 id="dot">.</h1>
+        <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+        <div class="button">
+            <a href="http://127.0.0.1:5500/index.html#">CONOCÉ MÁS</a>
+        </div>
+    </section>
+
+    <div class="skewedbox">
+    </div>
+
+    <h2>Episodios</h2>
+
+    <div class="img">
+        <iframe id="podcast1" src="./Podcast Chanel_files/7AZZy2nJ4R9ZndHW0h2yxt.html" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe id="podcast2" src="./Podcast Chanel_files/1ezdL2ivAGLwSE6Xbssxqt.html" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe id="podcast3" src="./Podcast Chanel_files/3cWta1iiQSfvrdHaCbLkSD.html" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe id="podcast4" src="./Podcast Chanel_files/31VyAQAwBiKoHVoYUCEzjQ.html" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+
+    <div class="imgphone">
+        <img id="phone" src="./Podcast Chanel_files/phone.png" alt="celular con imagen">
+    </div>
+
+    <section class="content">
+        <h3>De dónde venimos</h3>
+        <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in
+            all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+    </section>
+
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
